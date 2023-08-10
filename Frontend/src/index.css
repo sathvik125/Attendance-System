@@ -1,0 +1,67 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+.circle-dropdown-button-container {
+    position: relative;
+  }
+  
+  .circle-dropdown-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: #e5e5e5;
+    color: #333;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+    border: none;
+    outline: none;
+  }
+  
+  .circle-dropdown-button:hover {
+    background-color: #ccc;
+  }
+  
+  .circle-dropdown-button-icon {
+    margin-left: 8px;
+  }
+  
+  .circle-dropdown-options {
+    position: absolute;
+    top: 80%;
+    left: 0;
+    width: 100%;
+    padding: 8px 0;
+    background-color: #e5e5e5;
+    border-radius: 4px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .circle-dropdown-options li {
+    padding: 8px;
+    cursor: pointer;
+  }
+  
+  .circle-dropdown-options li:hover {
+    background-color: #ccc;
+  }
+  * {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'PT Sans', sans-serif;
+}
+
+#studentdisplay {
+ 
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  padding: 10px;
+  /* gap: 100px; */
+  border-radius: 4px;
+  /* background-color: #626ed4; */
+}
